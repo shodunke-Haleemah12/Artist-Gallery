@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.input-area input{
+    width: 305px;
+    height: 70px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(87, 85, 85);
+    color: white;
+    padding: 30px;
+}
+.btn button{
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+}
+.btn-1 button{
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+
+}
+.orange{
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    background-color: orange;
+    color: white;
+}
+.bt{
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+}
+.button{
+    width: 145px;
+    height: 65px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    /* background-color: blue; */
+}
+.btn{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.btn-1{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.btn-2{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.buttons-area{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: black;
+    border: none;
+    color: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+   padding: 80px;
+}

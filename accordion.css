@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.accord h1{
+    font-family: "netflix";
+    font-size: 48px;
+}
+.flex h1{
+    font-family: "net";
+    font-size: 24px;
+    padding: 27px 688px 27px 24px;
+}
+.flex img{
+    width: 50px;
+    height: 50px;
+    /* padding-right: 20px; */
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    height: 80px;
+
+}
+.flex-p{
+    display: flex;
+    flex-direction: column;
+    font-family: "net";
+    font-size: 24px;
+    gap: 30px;
+     display: none;
+    background-color: #2d2d2d;
+}
+.show-accord{
+    display: block;
+}
+.flex-p p{
+    padding: 27px 0px 27px 24px;
+    width: 920px;
+}
+.answer{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+
+}
+.accord-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+.accord{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 74px 153px 74px 153px;
+    background-color: #000;
+    border-bottom: 10px solid rgb(79, 78, 78);
+}
